@@ -146,10 +146,17 @@ const degrees = function(deg){
     }
 
 }
-console.log(degrees(180))
+
 
 13)
 Create a function to find the index of the greatest element of a given array of integers
+let myarray4 = [35,36,19,17,21]
+ if (myarray4.length === 0){
+     return -1
+ }
+    let max = myarray4[0]
+    let maxIndex = 0
+    for ( let i = 1; i< myarray4.length; i++)
 
 14)
 Create a function to get the largest even number from an array of integers.
